@@ -133,6 +133,7 @@ include('partials/login_check.php');
                 
                 //finally upload the image
                 $upload = move_uploaded_file($source_path,$destination_path);
+                echo $upload;
                 
                 //check whether image upload or not
                 //and if the image is nott uploaded we will stop the process and redirect with error msg.
