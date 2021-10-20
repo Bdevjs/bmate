@@ -1,0 +1,377 @@
+
+/*   */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ----------MENU-----------------  */
+.menu{
+    text-align:center;
+    border-bottom: 1px solid gray;
+    
+}
+.menu ul{
+    list-style-type: none;
+}
+
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    
+    
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#650c19;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color:#f33753;
+}
+
+
+/* -----------------MAIN CONTENT-----------------  */
+.main-content{
+    
+    background-color: #eeeeee;
+    padding:3% 0 ;
+    
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    float: left;
+    
+}
+
+
+/* ----------------(manage-admin.php)-----------------  */
+
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    
+    padding: 1%;
+    color: #0786b9;
+    
+    border-bottom: 4px solid #c65108;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+    
+}
+
+
+.btn-primary{
+    
+    background-color: #22a8de;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    transition: .2s;
+}
+
+
+
+.btn-primary:hover{
+    background-color: #13d802;
+    color: white;
+}
+
+.btn-secondary{
+    
+    background-color:#a1b10d;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    transition: .2s;
+    text-align: center;
+}
+
+
+
+.btn-secondary:hover{
+    background-color: #22a8de;
+    color: white;
+}
+
+
+
+
+
+
+
+.btn-danger{
+    
+    background-color: #f40909;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    transition: .2s;
+}
+
+
+
+.btn-danger:hover{
+    background-color: #6c090d;
+    color: white;
+}
+
+
+
+
+/* ----------------(Add-admin.php)-----------------  */
+
+
+.tbl-30{
+    width: 30%;
+}
+
+
+
+/* ----------------(login.php)-----------------  */
+
+.container{
+	max-width: 13000px;
+	margin:auto;
+	padding-right: 25px;
+	padding-left: 25px;
+
+
+}
+.row{
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+
+}
+.col-2 img{
+	max-width: 80%;
+	padding: 50px 0;
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+
+.account-page{
+    padding:  50px 0;
+    background: radial-gradient(#fff,#272727);
+}
+
+.form-container{
+    background: #fff;
+    width:300px;
+    height:400px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 0 20px 0 px rgba(0,0,0,0.5);
+    overflow:hidden;
+}
+
+.form-container span{
+    margin-top: 25px;
+    font-weight:bold;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #555;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+    
+}
+
+.form-container form{
+    max-width: 250px;
+    padding: 0 20px;
+    position: absolute;
+    top:130px;
+    transition: transform 1s;
+    
+}
+
+.form-in input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn{
+    width: 100%;
+    border: none;
+    cursor:pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+#LoginFrom{
+    left: -300px;
+}
+
+#RegFrom{
+    left: 0;
+}
+
+form a{
+    font-size: 12px;
+}
+
+
+
+
+#Indicator{
+    width: 90px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 5px;
+    transform: translate(100px);
+    transition: transform 1s;
+    
+}
+
+
+
+
+.btn{
+	display: inline-block;
+	background:#ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	border-radius: 20px;
+	margin: 60px 0;
+	transition:background 0.5s;
+
+}
+.btn:hover{
+	background:darkred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------Footer-----------------  */
+
+
+
+.text-center{
+    text-align: center;
+    
+}
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.success{
+    color: #0f9032;
+}
+
+.error{
+    color: #16eb50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
